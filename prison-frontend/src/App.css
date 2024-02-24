@@ -1,0 +1,94 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: rgb(210, 226, 240);
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  padding-right: 3%;
+}
+.profile{
+  margin-right: 3vw;
+  text-decoration: none;
+  color: black;
+}
+.content-container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 200px;
+  background: blanchedalmond;
+}
+
+.sidebar nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar nav ul li:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar nav ul li a {
+  display: block;
+  width: 100%;
+  padding: 8.7px;
+  background-color: blanchedalmond;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar nav ul li a:hover {
+  background-color: lightgray;
+}
+
+.sidebar nav ul li a.active {
+  background-color: yellow; /* Change this to the desired color for the active page */
+}
+
+.sidebar nav ul li a:active {
+  background-color: gray;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.logOutButton {
+  display: inline-block;
+  padding: 6px 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logOutButton:hover {
+  background-color: #e53935;
+}
+
+.logOutButton:focus {
+  outline: none;
+}
+
+.logOutButton:active {
+  background-color: #b25757;
+}

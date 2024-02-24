@@ -1,0 +1,12 @@
+.table-container {
+    height: 435px;
+    overflow-y: auto;
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  h1{
+    margin-top: -2%;
+  }
